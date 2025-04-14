@@ -132,6 +132,7 @@ fun Calc_Screen(navController: NavController) {
         )
 
 
+
         Spacer(modifier= Modifier.height(15.dp))
 
 
@@ -157,14 +158,41 @@ fun Calc_Screen(navController: NavController) {
 
 
                 color = Color.Blue
-
-
             )
-
-
         }
-
-
+        Spacer(modifier= Modifier.height(15.dp))
+        Button(onClick ={/*TODO*/},
+            modifier = Modifier.width(300.dp),
+            colors = ButtonDefaults.buttonColors(),
+            shape = RoundedCornerShape(16.dp))
+        {
+            Text("-",
+                fontSize = 30.sp,
+                color = Color.Blue
+            )
+        }
+        Spacer(modifier= Modifier.height(15.dp))
+        Button(onClick ={/*TODO*/},
+            modifier = Modifier.width(300.dp),
+            colors = ButtonDefaults.buttonColors(),
+            shape = RoundedCornerShape(16.dp))
+        {
+            Text("*",
+                fontSize = 30.sp,
+                color = Color.Blue
+            )
+        }
+        Spacer(modifier= Modifier.height(15.dp))
+        Button(onClick ={/*TODO*/},
+            modifier = Modifier.width(300.dp),
+            colors = ButtonDefaults.buttonColors(),
+            shape = RoundedCornerShape(16.dp))
+        {
+            Text("/",
+                fontSize = 30.sp,
+                color = Color.Blue
+            )
+        }
     }
 
 

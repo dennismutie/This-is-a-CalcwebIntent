@@ -74,7 +74,7 @@ fun Home_Screen(navController: NavHostController) {
                 .fillMaxWidth()
 
 
-                .height(200.dp)
+                .height(260.dp)
 
 
                 .background(Color.LightGray))
